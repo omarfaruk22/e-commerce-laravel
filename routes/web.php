@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontend.pages.index.index');
 });
 
 Route::get('/dashboard', function () {
